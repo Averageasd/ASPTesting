@@ -1,15 +1,4 @@
-# testing-aspnetcore-mvc
-This repo contains the source code for the ["ASP.NET Core MVC Testing Series"](https://code-maze.com/asp-net-core-mvc-testing/) of articles on Code Maze
-#### For this tutorial, we recommend having: ####
-* A good [C# knowledge](https://code-maze.com/csharp-intermediate-tutorial-oop/)
-* A basic understanding of  [ASP.NET Core MVC](https://code-maze.com/asp-net-core-mvc-testing/)
+# ASP.NET Testing Demo
 
-#### this tutorial is separated into several parts: ####
-
-  * Unit Testing with xUnit in ASP.NET Core MVC
-  * Testing MVC Controllers in ASP.NET Core
-  * Integration Testing in ASP.NET Core MVC
-  * Including AntiForgeryToken in MVC Integration Testing
-  * Automated UI tests with Selenium and ASP.NET Core MVC
-
-## https://code-maze.com/asp-net-core-mvc-testing/
+## About
+Project that I learnt about unit and integration testing. In Unit tests, we mock the injected modules so that we can test the module we want to test in isolation. Then we have integration testing where we use fake data and simulate http calls to make sure all parts work together correctly.
